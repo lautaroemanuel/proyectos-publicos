@@ -93,9 +93,9 @@ public class Sala {
             objeto[0] = objetos[indice];
             return objeto[0].toString();
         } else if (objetos[indice] != null && objetos[indice].getAño() > antiguo) {
-            return "No se encuentra un objeto en exposicion con la antiguedad ingresada";
-        } else {
             return "";
+        } else {
+            return "No se encuentran más objetos con la antigüedad ingresada";
         }
     }
 }
