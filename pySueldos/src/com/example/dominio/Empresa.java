@@ -15,9 +15,9 @@ public class Empresa {
     private Trabajador empleados[];
 
     public Empresa(String cuit, String razonSocial) {
-        cuit = cuit;
-        razonSocial = razonSocial;
-        empleados = new Trabajador[30];
+        this.cuit = cuit;
+        this.razonSocial = razonSocial;
+        this.empleados = new Trabajador[30];
     }
 
     public Empresa() {
